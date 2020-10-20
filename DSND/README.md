@@ -34,4 +34,4 @@ Youâ€™ll master the skills necessary to become a successful Data Scientist. Youâ
     - Data Science Capstone Project
 
 
-You can see the Nanodegree syllabus [here](https://github.com/jrreda/Udacity/blob/master/DAND/syllabus.pdf).
+You can see the Nanodegree syllabus [here](https://github.com/jrreda/Udacity/blob/master/DSND/Syllabus.pdf).
