@@ -16,13 +16,14 @@ At this point, it seems that we've seen two ways of doing linear regression.
 More specifically, the squared (or absolute) trick, when applied to a point, gives us some values to add to the weights of the model. We can add these values, update our weights, and then apply the squared (or absolute) trick on the next point. Or we can calculate these values for all the points, add them, and then update the weights with the sum of these values.  
 
 The latter is called batch gradient descent. The former is called stochastic gradient descent.  
-![batch Vs stochastic](https://github.com/jrreda/Udacity/tree/master/DSND/02%20-%20Supervised%20Learning/02_Linear%20Regression/batch-stochastic.png)
 
+<img src='batch-stochastic.png' alt="batch Vs stochastic" width="80%;"/>
 
 ***The question is, which one is used in practice?***  
 
 Actually, in most cases, **neither**. Think about this: If your data is huge, both are a bit slow, computationally. The best way to do linear regression, is to split your data into many small batches. Each batch, with roughly the same number of points. Then, use each batch to update your weights. This is still called *mini-batch* gradient descent.  
-![mini-batch](https://github.com/jrreda/Udacity/blob/master/DSND/02%20-%20Supervised%20Learning/02_Linear%20Regression/minibatch.png)  
+
+<img src='minibatch.png' alt="mini-batch" width="80%;"/>
 
 
 ## Linear Regression Warnings
@@ -33,7 +34,7 @@ Linear regression comes with a set of implicit assumptions and is not the best m
 
 Linear regression produces a straight line model from the training data. If the relationship in the training data is not really linear, you'll need to either make adjustments (transform your training data), add features (we'll come to this next), or use another kind of model.  
 
-![non linear data](https://github.com/jrreda/Udacity/tree/master/DSND/02%20-%20Supervised%20Learning/02_Linear%20Regression/quadraticlinearregression.png)
+<img src='quadraticlinearregression.png' alt="non linear data" width="80%;"/>
 
 
 2. **Linear Regression is Sensitive to Outliers**
@@ -41,10 +42,13 @@ Linear regression produces a straight line model from the training data. If the 
 Linear regression tries to find a 'best fit' line among the training data. If your dataset has some outlying extreme values that don't fit a general pattern, they can have a surprisingly large effect.  
 
 In this first plot, the model fits the data pretty well.  
-![no outliers](https://github.com/jrreda/Udacity/tree/master/DSND/02%20-%20Supervised%20Learning/02_Linear%20Regression/lin-reg-no-outliers.png)  
+
+<img src='lin-reg-no-outliers.png' alt="no outliers" width="80%;"/>
+
 
 However, adding a few points that are outliers and don't fit the pattern really changes the way the model predicts.  
-![with outliers](https://github.com/jrreda/Udacity/tree/master/DSND/02%20-%20Supervised%20Learning/02_Linear%20Regression/lin-reg-w-outliers.png)
+
+<img src='lin-reg-w-outliers.png' alt="with outliers" width="80%;"/>
 
 In most circumstances, you'll want a model that fits most of the data most of the time, so **watch out for outliers!**
 
@@ -81,7 +85,7 @@ In many machine learning algorithms, the result will change depending on the uni
 2. When you incorporate **regularization**.  
 
 
-#### Distance Based Metrics 
+#### Distance Based Metrics
 
 In future lessons, you will see one common supervised learning technique that is based on the distance points are from one another called [Support Vector Machines (or SVMs)](https://en.wikipedia.org/wiki/Support_vector_machine). Another technique that involves distance based methods to determine a prediction is [k-nearest neighbors (or k-nn)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm). With either of these techniques, choosing not to scale your data may lead to drastically different (and likely misleading) ending predictions.  
 

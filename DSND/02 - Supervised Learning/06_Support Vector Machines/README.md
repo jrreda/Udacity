@@ -9,7 +9,8 @@ In this lesson, you learned about Support Vector Machines (or SVMs). SVMs are a 
 
 When your data can be completely separated, the linear version of SVMs attempts to maximize the distance from the linear boundary to the closest points (called the support vectors). For this reason, we saw that in the picture below, the boundary on the left is better than the one on the right.
 
-![Maximum Margin Classifier](https://github.com/jrreda/Udacity/tree/master/DSND/02%20-%20Supervised%20Learning/06_Support%20Vector%20Machines/notes/Maximum-Margin-Classifier.png)
+<img src='notes/Maximum-Margin-Classifier.png' alt="Maximum Margin Classifier" width="80%;"/>
+
 
 
 ## Classification with Inseparable Classes
@@ -20,8 +21,7 @@ When `C` is large, you are forcing your boundary to have fewer errors than when 
 **Note:**  
 when `C` is too large for a particular set of data, you might not get convergence at all because your data cannot be separated with the small number of errors allotted with such a large value of `C`.  
 
-![Classification with Inseparable Classes](https://github.com/jrreda/Udacity/tree/master/DSND/02%20-%20Supervised%20Learning/06_Support%20Vector%20Machines/notes/Classification-with-Inseparable-Classes.png)
-
+<img src='notes/Classification-with-Inseparable-Classes.png' alt="Classification with Inseparable Classes" width="80%;"/>
 
 ## Kernels
 
@@ -33,8 +33,7 @@ Finally, we looked at what makes SVMs truly powerful, kernels. Kernels in SVMs a
 By far the most popular kernel is the **rbf** kernel (which stands for radial basis function). The **rbf** kernel allows you the opportunity to classify points that seem hard to separate in any space. This is a density based approach that looks at the closeness of points to one another. This introduces another hyper-parameter **gamma**.  
 When `gamma` is large, the outcome is similar to having a large value of `C`, that is your algorithm will attempt to classify every point correctly. Alternatively, small values of `gamma` will try to cluster in a more general way that will make more mistakes, but may perform better when it sees new data.
 
-![rbf-kernel](https://github.com/jrreda/Udacity/tree/master/DSND/02%20-%20Supervised%20Learning/06_Support%20Vector%20Machines/notes/rbf-kernel.png)
-
+<img src='notes/rbf-kernel.png' alt="rbf-kernel" width="80%;"/>
 
 
 
