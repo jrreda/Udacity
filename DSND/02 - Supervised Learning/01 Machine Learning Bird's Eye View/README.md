@@ -1,8 +1,8 @@
 Throughout this first term, you are going to get very comfortable with a number of machine learning techniques. In this lesson, you gained a glimpse at the perspectives that have collided to create the three tiers of machine learning regularly recognized today:  
 
-    * Supervised Machine Learning  
-    * Unsupervised Machine Learning  
-    * Reinforcement Machine Learning  
+* Supervised Machine Learning  
+* Unsupervised Machine Learning  
+* Reinforcement Machine Learning  
 
 
 ## Supervised Machine Learning
@@ -11,8 +11,8 @@ Thus far supervised machine learning has gained the most traction in use cases a
 
 Supervised learning is used for many business applications from spam filters to movie recommendations. We looked at the two broad categories of supervised machine learning:  
 
-    * Classification  
-    * Regression  
+* Classification  
+* Regression  
 
 Deep learning can be used within supervised machine learning to create techniques that are better at image recognition or identifying when a movie was created based on the video footage.
 

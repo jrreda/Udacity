@@ -11,26 +11,26 @@ Being able to identify spam messages is a binary classification problem as messa
 
 This project has been broken down in to the following steps:  
 
-    - Step 0: Introduction to the Naive Bayes Theorem  
+- Step 0: Introduction to the Naive Bayes Theorem  
 
-    - Step 1.1: Understanding our dataset  
-    - Step 1.2: Data Preprocessing  
+- Step 1.1: Understanding our dataset  
+- Step 1.2: Data Preprocessing  
 
-    - Step 2.1: Bag of Words (BoW)  
-    - Step 2.2: Implementing BoW from scratch  
-    - Step 2.3: Implementing Bag of Words in scikit-learn  
+- Step 2.1: Bag of Words (BoW)  
+- Step 2.2: Implementing BoW from scratch  
+- Step 2.3: Implementing Bag of Words in scikit-learn  
 
-    - Step 3.1: Training and testing sets  
-    - Step 3.2: Applying Bag of Words processing to our dataset.  
+- Step 3.1: Training and testing sets  
+- Step 3.2: Applying Bag of Words processing to our dataset.  
 
-    - Step 4.1: Bayes Theorem implementation from scratch  
-    - Step 4.2: Naive Bayes implementation from scratch  
+- Step 4.1: Bayes Theorem implementation from scratch  
+- Step 4.2: Naive Bayes implementation from scratch  
 
-    - Step 5: Naive Bayes implementation using scikit-learn  
+- Step 5: Naive Bayes implementation using scikit-learn  
 
-    - Step 6: Evaluating our model  
+- Step 6: Evaluating our model  
 
-    - Step 7: Conclusion    
+- Step 7: Conclusion    
 
 
 ***What does the term 'Naive' in 'Naive Bayes' mean ?***
@@ -41,11 +41,11 @@ Naive Bayes' is an extension of Bayes' theorem that assumes that all the feature
 
 ## Naive Bayes Advantages
 
-    1. Its ability to handle an extremely large number of features. In our case, each word is treated as a feature and there are thousands of different words.  
-    2. It performs well even with the presence of irrelevant features and is relatively unaffected by them.  
-    3. It has is its relative simplicity.  
-    4. Naive Bayes' works well right out of the box and tuning it's parameters is rarely ever necessary, except usually in cases where the distribution of the data is known.  
-    5. It rarely ever overfits the data.  
-    6. Its model training and prediction times are very fast for the amount of data it can handle.  
+1. Its ability to handle an extremely large number of features. In our case, each word is treated as a feature and there are thousands of different words.  
+2. It performs well even with the presence of irrelevant features and is relatively unaffected by them.  
+3. It has is its relative simplicity.  
+4. Naive Bayes' works well right out of the box and tuning it's parameters is rarely ever necessary, except usually in cases where the distribution of the data is known.  
+5. It rarely ever overfits the data.  
+6. Its model training and prediction times are very fast for the amount of data it can handle.  
 
 All in all, Naive Bayes' really is a gem of an algorithm!
