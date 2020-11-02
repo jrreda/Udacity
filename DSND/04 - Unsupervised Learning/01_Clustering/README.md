@@ -7,12 +7,13 @@
 There are two popular methods for unsupervised machine learning.
 1. **Clustering** - which groups data together based on similarities.
 <img src='Notes/Clustring.jpg' alt="Clustering" width="80%;"/>
+
 2. **Dimensionality Reduction** - which condenses a large number of features into a (usually much) smaller set of features.
 <img src='Notes/Dimensionality-Reduction.jpg' alt="Dimensionality Reduction" width="80%;"/>
 
 
 ## K-Means
-In the K-means algorithm `k` represents the number of clusters you have in your dataset.
+In the K-means algorithm `k` represents the number of clusters you have in your dataset.  
 You can choose `k` in different ways:
 
 <img src='Notes/choosing-K.jpg' alt="Choosing K" width="80%;"/>
@@ -25,10 +26,10 @@ In order to assure you have the **best** set of clusters, the K-means algorithm 
 
 There is some concerns with the k-means algorithm. These concerns included:
 
-1. **Concern**: The random placement of the centroids may lead to non-optimal solutions.
+1. **Concern**: The random placement of the centroids may lead to non-optimal solutions.  
 **Solution** : Run the algorithm multiple times and choose the centroids that create the smallest average distance of the points to the centroids.
 
-2. **Concern**: Depending on the scale of the features, you may end up with different groupings of your points.
+2. **Concern**: Depending on the scale of the features, you may end up with different groupings of your points.  
 **Solution**: Scale the features using Standardizing, which will create features with mean 0 and standard deviation 1 before running the k-means algorithm.
 
 
