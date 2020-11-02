@@ -1,6 +1,9 @@
 # Deep Learning with PyTorch
 
-This repo contains notebooks and related code for Udacity's Deep Learning with PyTorch lesson. 
+Let's put all the pieces together: Python, NumPy/pandas/Matplotlib, Linear Algebra and Neural Networks, and learn [PyTorch](http://pytorch.org/).
+
+**[PyTorch](http://pytorch.org/)** was released in early 2017 and has been making a pretty big impact in the deep learning community. It's developed as an open source project by the [Facebook AI Research team](https://research.fb.com/category/facebook-ai-research-fair/), but is being adopted by teams everywhere in industry and academia.
+
 
 * **Part 1:** Introduction to PyTorch and using tensors
 * **Part 2:** Building fully-connected neural networks with PyTorch
