@@ -1,0 +1,10 @@
+setup.py
+jrreda_distributions/Binomialdistribution.py
+jrreda_distributions/Gaussiandistribution.py
+jrreda_distributions/Generaldistribution.py
+jrreda_distributions/__init__.py
+jrreda_distributions.egg-info/PKG-INFO
+jrreda_distributions.egg-info/SOURCES.txt
+jrreda_distributions.egg-info/dependency_links.txt
+jrreda_distributions.egg-info/not-zip-safe
+jrreda_distributions.egg-info/top_level.txt
