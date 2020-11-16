@@ -39,4 +39,39 @@ As a reminder, your package should be placed in a folder with the following fold
 
 When you are ready to upload your package, you can first upload to the [PyPi test repository](https://test.pypi.org/). Once everything is working as expected, you can upload to the public facing [PyPi repository](https://pypi.org/).  
 
-As a reminder, you'll need to create a username for both the test and public facing repositories. You'll also need to pip install the twine package with: `pip install twine`.  
+As a reminder, you'll need to create a username for both the test and public facing repositories. You'll also need to pip install the twine package with: `pip install twine`.   
+
+
+## Package details
+
+* Package link on **[PyPi test](https://test.pypi.org/project/jrreda-distributions/)**.
+* Package link on **[PyPi](https://pypi.org/project/jrreda-distributions/)**.
+
+
+You can download the package by typing `pip install jrreda-distributions` in the Terminal.
+
+
+### Summary of the Terminal Commands Used to upload the package:
+
+```
+cd binomial_package_files
+python setup.py sdist
+pip install twine
+
+# commands to upload to the pypi test repository
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+pip install --index-url https://test.pypi.org/simple/ jrreda-distributions
+
+# command to upload to the pypi repository
+twine upload dist/*
+pip install jrreda-distributions
+```
+
+
+
+#### Other Links
+
+If you'd like to learn more about [PyPi](https://pypi.org/), here are a couple of resources:
+
+* [Overview of PyPi](https://docs.python.org/3/distutils/packageindex.html).
+* [MIT License](https://opensource.org/licenses/MIT).
