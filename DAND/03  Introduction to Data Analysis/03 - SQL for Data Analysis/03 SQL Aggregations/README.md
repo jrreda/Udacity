@@ -1,4 +1,6 @@
-# RECAP
+# SQL Aggregations
+
+In this final lesson, you will learn some more advanced features of SQL. You will gain the ability to summarize data from multiple tables in a database. 
 
 Each of the sections has been labeled to assist if you need to revisit a particular topic. Intentionally, the solutions for a particular section are actually not in the labeled section, because my hope is this will force you to practice if you have a question about a particular topic we covered.
 

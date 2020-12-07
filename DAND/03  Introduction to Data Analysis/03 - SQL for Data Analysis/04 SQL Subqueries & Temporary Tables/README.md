@@ -1,4 +1,4 @@
-# Recap
+# SQL Subqueries & Temporary Tables
 
 This lesson was the first of the more advanced sequence in writing SQL. Arguably, the advanced features of **Subqueries** and **CTEs** are the most widely used in an analytics role within a company. Being able to break a problem down into the necessary tables and finding a solution using the resulting table is very useful in practice.
 
