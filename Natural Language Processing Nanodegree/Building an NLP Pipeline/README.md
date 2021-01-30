@@ -12,6 +12,8 @@ In computing, the term text processing refers to the theory and practice of auto
 
 <img src='Notes/Text-Processing-02.jpg' alt="Text processing 2" width="80%;"/>
 
+<img src='Notes/Text-Processing-03.jpg' alt="Text processing 3" width="80%;"/>
+
 
 ### Feature extraction:
 
@@ -30,9 +32,9 @@ In machine learning, pattern recognition and in image processing, feature extrac
 
 In corpus linguistics, part-of-speech tagging, also called grammatical tagging is the process of marking up a word in a text as corresponding to a particular part of speech, based on both its definition and its context. A simplified form of this is commonly taught to school-age children, in the identification of words as nouns, verbs, adjectives, adverbs, etc. Once performed by hand, POS tagging is now done in the context of computational linguistics, using algorithms which associate discrete terms, as well as hidden parts of speech, by a set of descriptive tags. POS-tagging algorithms fall into two distinctive groups: rule-based and stochastic. E. Brill's tagger, one of the first and most widely used English POS-taggers, employs rule-based algorithms.
 
-<img src='Notes/Part-of-Speech-Tagging-01' alt="Part-of-Speech Tagging" width="80%;"/>
+<img src='Notes/Part-of-Speech-Tagging-01.jpg' alt="Part-of-Speech Tagging" width="80%;"/>
 
-<img src='Notes/Part-of-Speech-Tagging-02' alt="Part-of-Speech Tagging 2" width="80%;"/>
+<img src='Notes/Part-of-Speech-Tagging-02.jpg' alt="Part-of-Speech Tagging 2" width="80%;"/>
 
 
 ### Named-entity recognition
