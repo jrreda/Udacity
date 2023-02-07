@@ -28,3 +28,10 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Deep Convolutional GAN (DCGAN)](https://github.com/jrreda/Udacity/tree/master/DLND/Generative%20Adversarial%20Networks%20PyTorch/dcgan-svhn): Implement a DCGAN to generate new images based on the Street View House Numbers (SVHN) dataset.
 * [CycleGAN](https://github.com/jrreda/Udacity/tree/master/DLND/Generative%20Adversarial%20Networks%20PyTorch/cycle-gan): Implement a CycleGAN that is designed to learn from unpaired and unlabeled data; use trained generators to transform images from summer to winter and vice versa.
 
+### Projects
+
+* [Predicting Bike-Sharing Patterns](https://github.com/jrreda/Udacity/blob/master/DLND/02%20Neural%20Networks/05_Project%20Predicting%20Bike%20Sharing%20Data/Your_first_neural_network_Solution.ipynb): Implement a neural network in NumPy to predict bike rentals.
+* [Dog Breed Classifier](https://github.com/jrreda/Udacity/blob/master/DLND/03%20Convolutional%20Networks/dog_app.ipynb): Build a convolutional neural network with PyTorch to classify any image (even an image of a face) as a specific dog breed.
+* [TV Script Generation](https://github.com/jrreda/Udacity/tree/master/DLND/project-tv-script-generation): Train a recurrent neural network to generate scripts in the style of dialogue from Seinfeld.
+* [Face Generation](https://github.com/jrreda/Udacity/tree/master/DLND/project-face-generation): Use a DCGAN on the CelebA dataset to generate images of new and realistic human faces.
+
