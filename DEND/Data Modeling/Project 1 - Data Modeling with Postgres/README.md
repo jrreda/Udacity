@@ -24,4 +24,4 @@ Using the song and log datasets, create a star schema optimized for queries on s
 
 the tables in my PostgreSQL:
 
-<img src='images/tables.png' alt="tables" width="80%;"/>
+<img src='images/tabels.png' alt="tables" width="80%;"/>
