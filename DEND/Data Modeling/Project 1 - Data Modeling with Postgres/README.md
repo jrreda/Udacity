@@ -20,8 +20,8 @@ In this project, you'll apply what you've learned on data modeling with Postgres
 ## Schema for Song Play Analysis
 Using the song and log datasets, create a star schema optimized for queries on song play analysis. 
 
-![tables](/images/schema.png)
+<img src='images/schema.png' alt="schema" width="80%;"/>
 
 the tables in my PostgreSQL:
 
-![tables](/images/tables.png)
+<img src='images/tables.png' alt="tables" width="80%;"/>
